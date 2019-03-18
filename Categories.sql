@@ -1,0 +1,8 @@
+USE [Web-shop]
+
+CREATE TABLE Categories
+(
+	Id INT PRIMARY KEY IDENTITY(1,1)
+	,Title NVARCHAR(255) NOT NULL
+	,Descriptions NVARCHAR(255)
+)
